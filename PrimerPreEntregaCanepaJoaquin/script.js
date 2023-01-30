@@ -44,9 +44,6 @@ do{
                 presupuestoPantalon=presupuestoPantalon+precioPantalon;
                 contadorPantalon++;
                 break;
-            /*default:
-                opcionPrenda=prompt("por favor ingrese un tipo valido")
-                break;*/
         }
     }while (opcionPrenda!="remera" && opcionPrenda!="buzo" && opcionPrenda!="pantalon")
     resupuesta=prompt("Desea seguir sumando cosas al carrito?")
