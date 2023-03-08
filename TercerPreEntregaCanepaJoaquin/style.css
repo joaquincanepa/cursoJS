@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedor
+{
+    width: 100%;
+    height: auto;
+    display: flex ;
+    flex-wrap: wrap;
+}
+.carrito
+{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+}
+.productosCarrito
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carritoTotal
+{
+    padding: 10px;
+    
+}

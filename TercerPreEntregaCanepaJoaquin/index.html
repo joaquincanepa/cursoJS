@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tercer PreEntrega CanepaJoaquin</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>PreEntrega numero 3. Carrito de compras</h2>
+    <div>
+        <h3>Productos:</h3>
+    </div>
+<div class="contenedorProductos" id="productos">
+        <div class="contenedor">
+            <div class="card1" style="width: 18rem;">
+                <img class="card-img-top" src="./remera.jpg" alt="imagen de remera">
+                <div class="card-body">
+                <h5 class="card-title">Remera</h5>
+                <p class="card-text">La mejor calidad al mejor Precio.
+                Remera - $7000
+                </p>
+                <a id="agregarRemera" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card2" style="width: 18rem;">
+                <img class="card-img-top" src="./pantalon.jpg" alt="imagen de Pantalon">
+                <div class="card-body">
+                <h5 class="card-title">Pantalon</h5>
+                <p class="card-text">La mejor calidad al mejor Precio.
+                    Pantalon - $14000
+                </p>
+                <a id="agregarPantalon" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="card3" style="width: 18rem;">
+                <img class="card-img-top" src="./buzo.jpg" alt="imagen de Buzo">
+                <div class="card-body">
+                <h5 class="card-title">Buzo</h5>
+                <p class="card-text">La mejor calidad al mejor Precio.
+                    Buzo - $15000
+                </p>
+                <a id="agregarBuzo" class="btn btn-primary">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carrito">
+            <h2>Productos seleccionados:</h2>
+            <div 
+                class="productosCarrito" id="productosCarrito" >
+            </div>
+        </div>
+        <div class="total">
+            <h3>Precio total acumulado: </h3>
+            <div id="total" >
+            </div>
+        </div>
+        <div class="btnCompraVaciar">
+            <button class="btn-xs btn-outline-primary" id="btnVaciarCarrito" ><p>Vaciar carrito</p></button>
+            <button class="btn-xs btn-outline-primary" id="btnFinalizarCompra" onclick="finalizarCompra()" ><p>Finalizar compra</p></button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
